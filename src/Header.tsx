@@ -20,19 +20,9 @@ const Header = () => {
       <AppBar position="static" color="primary">
         <Toolbar variant="dense">
           <Box flex={1} display="flex" justifyContent="space-between">
-            <Box display="flex" alignItems="center">
-              <Box
-                component="img"
-                sx={{ marginRight: "1em", height: 30 }}
-                src={
-                  "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
-                }
-                alt="Bosch Logo"
-              />
-              <Typography component="span" variant="h5">
-                CRM Legacy App
-              </Typography>
-            </Box>
+            <Typography component="span" variant="h5">
+              CRM Legacy App
+            </Typography>
             <Box>
               <Tabs
                 value={currentPath}
