@@ -20,9 +20,11 @@ const Header = () => {
       <AppBar position="static" color="primary">
         <Toolbar variant="dense">
           <Box flex={1} display="flex" justifyContent="space-between">
-            <Typography component="span" variant="h5">
-              CRM Legacy App
-            </Typography>
+            <Box display="flex" alignItems="center">
+              <Typography component="span" variant="h5">
+                CRM Legacy App
+              </Typography>
+            </Box>
             <Box>
               <Tabs
                 value={currentPath}
